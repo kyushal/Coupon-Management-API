@@ -789,7 +789,7 @@ pytest --cov=app --cov-report=html tests/
 3. **Soft deletion**: Coupons marked inactive instead of deleted
 4. **Concurrent safety**: Database transactions prevent race conditions
 
-### 📄 PARTIALLY IMPLEMENTED CASES
+### PARTIALLY IMPLEMENTED CASES
 
 #### Advanced BxGy Scenarios
 1. **Mixed product requirements**: Implemented but limited testing
