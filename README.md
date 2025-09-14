@@ -760,7 +760,7 @@ pytest --cov=app --cov-report=html tests/
 
 ## Use Cases Analysis
 
-### ✅ IMPLEMENTED CASES
+### IMPLEMENTED CASES
 
 #### Cart-wise Coupons
 1. **Basic threshold discount**: 10% off on carts over Rs. 100
@@ -792,11 +792,11 @@ pytest --cov=app --cov-report=html tests/
 ### 📄 PARTIALLY IMPLEMENTED CASES
 
 #### Advanced BxGy Scenarios
-1. **Mixed product requirements**: ✅ Implemented but limited testing
-2. **Fractional repetitions**: ✅ Handled with floor division
-3. **Priority ordering**: ⚠️ Basic implementation, could be enhanced
+1. **Mixed product requirements**: Implemented but limited testing
+2. **Fractional repetitions**: Handled with floor division
+3. **Priority ordering**: Basic implementation, could be enhanced
 
-### ❌ UNIMPLEMENTED CASES (Future Enhancements)
+### UNIMPLEMENTED CASES (Future Enhancements)
 
 #### Complex Business Logic
 1. **Coupon stacking**: Multiple coupons on same cart
@@ -868,27 +868,27 @@ pytest --cov=app --cov-report=html tests/
 ## Edge Cases Handled
 
 ### Data Validation
-- ✅ Invalid coupon types rejected
-- ✅ Negative discounts prevented
-- ✅ Missing required fields validation
-- ✅ Invalid product IDs handled gracefully
-- ✅ Zero or negative quantities in cart
-- ✅ Empty cart scenarios
+- Invalid coupon types rejected
+- Negative discounts prevented
+- Missing required fields validation
+- Invalid product IDs handled gracefully
+- Zero or negative quantities in cart
+- Empty cart scenarios
 
 ### Business Logic Edge Cases
-- ✅ Expired coupons automatically excluded
-- ✅ Usage limit exceeded prevents application
-- ✅ Insufficient products for BxGy offers
-- ✅ Products not in cart for product-wise coupons
-- ✅ Cart total below threshold for cart-wise coupons
-- ✅ Maximum discount caps respected
-- ✅ Floating point precision in calculations
+- Expired coupons automatically excluded
+- Usage limit exceeded prevents application
+- Insufficient products for BxGy offers
+- Products not in cart for product-wise coupons
+- Cart total below threshold for cart-wise coupons
+- Maximum discount caps respected
+- Floating point precision in calculations
 
 ### System Edge Cases
-- ✅ Database connection failures handled
-- ✅ Concurrent coupon usage tracked
-- ✅ Invalid coupon IDs return appropriate errors
-- ✅ Malformed request data validation
+- Database connection failures handled
+- Concurrent coupon usage tracked
+- Invalid coupon IDs return appropriate errors
+- Malformed request data validation
 
 ## Assumptions Made
 
@@ -956,15 +956,15 @@ pytest --cov=app --cov-report=html tests/
 ## Testing
 
 ### Unit Tests
-- ✅ Coupon CRUD operations
-- ✅ Discount calculation algorithms
-- ✅ Edge case handling
-- ✅ Validation logic
+- Coupon CRUD operations
+- Discount calculation algorithms
+- Edge case handling
+- Validation logic
 
 ### Integration Tests
-- ✅ API endpoint testing
-- ✅ Database integration
-- ✅ End-to-end coupon application
+- API endpoint testing
+- Database integration
+- End-to-end coupon application
 
 ### Test Coverage
 - Target: 90%+ code coverage
@@ -990,14 +990,6 @@ CREATE TABLE coupons (
     used_count INTEGER DEFAULT 0
 );
 ```
-
-## Contributing
-1. Fork the repository
-2. Create feature branch
-3. Add comprehensive tests
-4. Update documentation
-5. Submit pull request
-
 ## License
 MIT License
 
